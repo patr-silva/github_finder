@@ -13,6 +13,8 @@ const RepoItem = ({ repo }) => {
     stargazers_count,
   } = repo;
 
+
+  
   return (
     <div className='mb-2 h-30 rounded-md  shadow-lg hover:bg-gray-200'>
       <h3 className='mb-2 mt-3 ml-2 text-s text-gray hover:text-white'>
